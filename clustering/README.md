@@ -14,15 +14,15 @@ Step 3: Create modeled activation (MA) map for each experiment in database.
 ```Matlab
 Experiments = 1_make_ma_maps(Experiments);
 ```
-
+Or BMA_ModeledActivationImgs does it (called within 1_kmeans_clustering"
 Step 4: grab experiments meeting inclusion criteria, run k means clustering
 ```Matlab
-2_kmeans_clustering;
+1_kmeans_clustering;
 ```
 
 Step 5: run k means clustering group separation and group stability metrics (Average Silhouette, Variation of Information, Hierarchy Index, Cluster Consistency)
 ```Matlab
-3_kmeans_metrics;
+2_kmeans_metrics;
 ```
 This script creates four subplots, this will save the following variables in the file metrics.mat:
 
