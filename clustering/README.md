@@ -1,6 +1,6 @@
 Steps:
 
-Step 0: Get database dump from BrainMap (link). You will have to sign up as a collaborator.
+Step 0: Get database dump from BrainMap (http://brainmap.org/collaborations.html). You will have to sign up as a collaborator.
 
 Step 1: open MatLab
 
