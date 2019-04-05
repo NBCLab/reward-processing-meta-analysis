@@ -14,7 +14,8 @@ Step 3: Create modeled activation (MA) map for each experiment in database.
 ```Matlab
 Experiments = 1_make_ma_maps(Experiments);
 ```
-Or BMA_ModeledActivationImgs does it (called within 1_kmeans_clustering"
+Or use BMA_ModeledActivationImgs to make the MA maps (this script is called within 1_kmeans_clustering script)
+
 Step 4: grab experiments meeting inclusion criteria, run k means clustering
 ```Matlab
 1_kmeans_clustering;
